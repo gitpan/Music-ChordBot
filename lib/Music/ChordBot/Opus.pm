@@ -154,6 +154,7 @@ sub json {
     $self->_wrapup;
     use JSON ();
     my $json = JSON->new;
+    $json->canonical(1);
     $json = $json->pretty if $pretty;
     $json->encode($self->{data});
 }

@@ -5,7 +5,7 @@ package Music::ChordBot;
 use warnings;
 use strict;
 
-our $VERSION = '0.90';
+our $VERSION = '0.91';
 
 =head1 NAME
 

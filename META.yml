@@ -21,4 +21,4 @@ requires:
   JSON: 0
   Test::More: 0
   parent: 0
-version: 0.90
+version: 0.91

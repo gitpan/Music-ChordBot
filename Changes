@@ -1,49 +1,16 @@
-commit b0204b603a1969455681a260061ccfd473a847e9
-Author: Johan Vromans <jvromans@squirrel.nl>
-Date:   Thu May 2 22:19:05 2013 +0200
+0.91	2013-05-07
 
-    Documenting...
+	Output json in canonical form so the tests can succeed.
 
-commit b1c73e7058dd17dd1f9a04ad867b19f505c6157a
-Author: Johan Vromans <jvromans@squirrel.nl>
-Date:   Wed May 1 17:10:07 2013 +0200
+0.90	2013-05-06
 
-    Test for new, simplified song API.
-
-commit 262a746efa8bbda79e2d675a13ee09109360548f
-Author: Johan Vromans <jvromans@squirrel.nl>
-Date:   Wed May 1 15:54:56 2013 +0200
-
-    Add json sub.
-
-commit 8021f584ba902d8787106eb9efddb4e595c6d976
-Author: Johan Vromans <jvromans@squirrel.nl>
-Date:   Wed May 1 15:52:02 2013 +0200
-
-    Example using abbreviated chords API.
-
-commit 02a6716001a4c21d08ed9c7efedb30f40ce2beac
-Author: Johan Vromans <jvromans@squirrel.nl>
-Date:   Wed May 1 15:51:02 2013 +0200
-
-    Use Opus exporters.
-    Add chord subroutines for much easier access.
-
-commit 8d71c1fed7e0cf9fca52a054d6c596f2ec9c8009
-Author: Johan Vromans <jvromans@squirrel.nl>
-Date:   Wed May 1 15:27:46 2013 +0200
-
-    Small improvements and fixes.
-
-commit 3a53cc39fb8e4908c80dcdb73c2800e822811e8d
-Author: Johan Vromans <jvromans@squirrel.nl>
-Date:   Wed May 1 15:27:19 2013 +0200
-
-    Add method for editMode.
-    Add wrapup method to determine the desired value of editMode and set it.
-
-commit 3c0118b791c5084d2b030d7f5657e6f27339fabd
-Author: Johan Vromans <jvromans@squirrel.nl>
-Date:   Fri Apr 26 15:22:07 2013 +0200
-
-    Initial.
+	Initial CPAN release.
+	Documenting...
+	Test for new, simplified song API.
+	Add json sub.
+	Example using abbreviated chords API.
+	Use Opus exporters.
+	Add chord subroutines for much easier access.
+	Small improvements and fixes.
+	Add method for editMode.
+	Add wrapup method to determine the desired value of editMode and set it.

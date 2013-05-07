@@ -40,5 +40,5 @@ $x->add_section($s);
 $x->name("Funky Canon");
 
 is( $x->json . "\n", <<EOD, "resulting json" );
-{"editMode":0,"tempo":80,"sections":[{"style":{"tracks":[{"volume":8,"id":80},{"volume":7,"id":221}],"chorus":5,"reverb":7},"name":"First","chords":[{"duration":4,"type":"Maj","root":"C"},{"duration":4,"type":"Maj","root":"G"}]}],"fileType":"chordbot-song","songName":"Funky Canon"}
+{"editMode":0,"fileType":"chordbot-song","sections":[{"chords":[{"duration":4,"root":"C","type":"Maj"},{"duration":4,"root":"G","type":"Maj"}],"name":"First","style":{"chorus":5,"reverb":7,"tracks":[{"id":80,"volume":8},{"id":221,"volume":7}]}}],"songName":"Funky Canon","tempo":80}
 EOD

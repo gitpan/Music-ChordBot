@@ -17,5 +17,5 @@ chord "D Min7 4";
 chord "D Min7 4";
 
 is( Music::ChordBot::Song::json()."\n", <<EOD, "resulting json" );
-{"editMode":0,"tempo":120,"sections":[{"style":{"tracks":[{"volume":7,"id":158},{"volume":7,"id":136},{"volume":7,"id":141}],"chorus":4,"reverb":8},"name":"Funky Section","chords":[{"duration":4,"type":"Min7","root":"D"},{"duration":4,"type":"Min7","root":"A"},{"duration":4,"type":"Min7","root":"D"},{"duration":4,"type":"Min7","root":"D"}]}],"fileType":"chordbot-song","songName":"Perl Canon"}
+{"editMode":0,"fileType":"chordbot-song","sections":[{"chords":[{"duration":4,"root":"D","type":"Min7"},{"duration":4,"root":"A","type":"Min7"},{"duration":4,"root":"D","type":"Min7"},{"duration":4,"root":"D","type":"Min7"}],"name":"Funky Section","style":{"chorus":4,"reverb":8,"tracks":[{"id":158,"volume":7},{"id":136,"volume":7},{"id":141,"volume":7}]}}],"songName":"Perl Canon","tempo":120}
 EOD
